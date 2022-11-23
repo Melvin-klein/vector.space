@@ -261,5 +261,11 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "tagline": {
+    "message": "The Math Directory community seeks to make mathematical knowledge accessible to as many people as possible. Do not hesitate to contribute!"
+  },
+  "Start learning": {
+    "message": "Start learning"
   }
 }
