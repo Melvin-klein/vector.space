@@ -14,12 +14,12 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{translate({"message": "tagline"})}</p>
+        <p className="hero__subtitle">{translate({"message": "home.hero.tagline"})}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            ✨ {translate({"message": "Start learning"})} ✨
+            ✨ {translate({"message": "home.hero.button"})} ✨
           </Link>
         </div>
       </div>

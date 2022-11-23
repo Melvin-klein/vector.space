@@ -5,29 +5,29 @@ import { translate } from '@docusaurus/Translate';
 
 const FeatureList = [
   {
-    title: translate({ message: 'Entirely free' }),
+    title: translate({ message: 'home.items.first.title' }),
     Svg: require('@site/static/img/undraw_with_love.svg').default,
     description: (
       <>
-        {translate({ message: "home.items.first" })}
+        {translate({ message: "home.items.first.content" })}
       </>
     ),
   },
   {
-    title: translate({ message: 'Entirely open source' }),
+    title: translate({ message: 'home.items.second.title' }),
     Svg: require('@site/static/img/undraw_open_source.svg').default,
     description: (
       <>
-        {translate({ message: "home.items.second" })}
+        {translate({ message: "home.items.second.content" })}
       </>
     ),
   },
   {
-    title: translate({ message: 'Entirely community-based' }),
+    title: translate({ message: 'home.items.third.title' }),
     Svg: require('@site/static/img/undraw_coffee_with_friends.svg').default,
     description: (
       <>
-        {translate({ message: "home.items.third" })}
+        {translate({ message: "home.items.third.content" })}
       </>
     ),
   },

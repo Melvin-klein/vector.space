@@ -262,28 +262,28 @@
     "message": "Tags",
     "description": "The title of the tag list page"
   },
-  "tagline": {
+  "home.hero.tagline": {
     "message": "La communauté Math Directory souhaite rendre les connaissances mathématiques accessibles au plus grand nombre de personnes. N'hésitez pas à contribuer!"
   },
-  "Start learning": {
+  "home.hero.button": {
     "message": "Commencer à apprendre"
   },
-  "home.items.first": {
+  "home.items.first.content": {
     "message": "Tous les cours et les ressources que vous trouverez sur Math Directory sont gratuits. Profitez-en pleinement!"
   },
-  "home.items.second": {
+  "home.items.second.content": {
     "message": "Le site web Math Directory ainsi que tout son contenu sont disponibles et modifiables sur Github."
   },
-  "home.items.third": {
+  "home.items.third.content": {
     "message": "Le site web, les cours et les ressources pédagogiques sont créés et maintenus par la communauté. Rejoignez-nous!"
   },
-  "Entirely free": {
-    "message": "Entièrement gratuit"
+  "home.items.first.title": {
+    "message": "Gratuit"
   },
-  "Entirely open source": {
-    "message": "Entièrement open source"
+  "home.items.second.title": {
+    "message": "Open source"
   },
-  "Entirely community-based": {
-    "message": "Entièrement communautaire"
+  "home.items.third.title": {
+    "message": "Communautaire"
   }
 }

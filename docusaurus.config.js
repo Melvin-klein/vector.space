@@ -139,7 +139,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Licence MIT ${new Date().getFullYear()} Linear Space, Org. Built with Docusaurus.`,
+        copyright: `Licence MIT ${new Date().getFullYear()} Math Directory, Org. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
