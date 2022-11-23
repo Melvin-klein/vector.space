@@ -75,7 +75,7 @@ const config = {
             position: 'left'
           },
           {
-            to: '/page/contributing',
+            to: '/docs/intro',
             label: 'Contributing',
             position: 'left'
           },
@@ -134,7 +134,7 @@ const config = {
               },
               {
                 label: 'Contributors',
-                to: '/contributors',
+                to: '/docs/intro',
               },
             ],
           },
