@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Math Directory',
+  tagline: 'The Math Directory community seeks to make mathematical knowledge accessible to as many people as possible. Do not hesitate to contribute!',
+  url: 'https://www.mathdirectory.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,15 +16,15 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Melvin-klein', // Usually your GitHub org/user name.
+  projectName: 'vector.space', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'fr'],
   },
 
   presets: [
@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Melvin-klein/vector.space/tree/main',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Melvin-klein/vector.space/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Math Directory',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -65,13 +65,32 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            label: 'Learn',
             position: 'left',
-            label: 'Tutorial',
+            docId: 'intro'
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            to: '/blog',
+            label: 'Blog',
+            position: 'left'
+          },
+          {
+            to: '/page/contributing',
+            label: 'Contributing',
+            position: 'left'
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right',
+            dropdownItemsAfter: [
+              {
+                to: 'https://my-site.com/help-us-translate',
+                label: 'Help us translate',
+              },
+            ],
+          },
+          {
+            href: 'https://github.com/Melvin-klein/vector.space',
             label: 'GitHub',
             position: 'right',
           },
@@ -81,11 +100,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Learn',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Algebra',
+                to: '/docs/category/algebra',
               },
             ],
           },
@@ -93,12 +112,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
                 href: 'https://discordapp.com/invite/docusaurus',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/Melvin-klein/vector.space',
               },
               {
                 label: 'Twitter',
@@ -114,13 +133,13 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Contributors',
+                to: '/contributors',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Licence MIT ${new Date().getFullYear()} Linear Space, Org. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

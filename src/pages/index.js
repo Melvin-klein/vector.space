@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import { translate } from '@docusaurus/Translate';
 
 import styles from './index.module.css';
 
@@ -13,12 +14,12 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">{translate({"message": "tagline"})}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            ✨ {translate({"message": "Start learning"})} ✨
           </Link>
         </div>
       </div>
@@ -27,11 +28,10 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`ᐅ Learn mathematics`}
+      description="Learn mathematics for free with Linear Space. Our community seeks to make mathematical knowledge accessible to as many people as possible.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
