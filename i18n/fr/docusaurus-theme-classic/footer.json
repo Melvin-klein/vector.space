@@ -33,7 +33,7 @@
   },
   "link.item.label.Contributors": {
     "message": "Contributeurs",
-    "description": "The label of footer link with label=Contributors linking to /contributors"
+    "description": "The label of footer link with label=Contributors linking to /docs/intro"
   },
   "copyright": {
     "message": "Licence MIT 2022 Math Directory. Construit avec Docusaurus.",

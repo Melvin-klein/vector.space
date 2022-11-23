@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import { translate } from '@docusaurus/Translate';
 
 const FeatureList = [
   {
@@ -8,8 +9,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_with_love.svg').default,
     description: (
       <>
-        All the courses and resources you will find on Math Directory are free
-        of charge. Take full advantage of it!
+        {translate({ message: "home.items.first" })}
       </>
     ),
   },
@@ -18,8 +18,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_open_source.svg').default,
     description: (
       <>
-        The Math Directory website and all its contents are accessible and
-        modifiable on Github
+        {translate({ message: "home.items.second" })}
       </>
     ),
   },
@@ -28,8 +27,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_coffee_with_friends.svg').default,
     description: (
       <>
-        The website, courses and learning resources are created and maintained
-        by the community. Join us!
+        {translate({ message: "home.items.third" })}
       </>
     ),
   },

@@ -267,5 +267,14 @@
   },
   "Start learning": {
     "message": "Start learning"
+  },
+  "home.items.first": {
+    "message": "All the courses and resources you will find on Math Directory are free of charge. Take full advantage of it!"
+  },
+  "home.items.second": {
+    "message": "The Math Directory website and all its contents are accessible and modifiable on Github"
+  },
+  "home.items.third": {
+    "message": "The website, courses and learning resources are created and maintained by the community. Join us!"
   }
 }
