@@ -5,7 +5,7 @@ import { translate } from '@docusaurus/Translate';
 
 const FeatureList = [
   {
-    title: 'Entirely free',
+    title: translate({ message: 'Entirely free' }),
     Svg: require('@site/static/img/undraw_with_love.svg').default,
     description: (
       <>
@@ -14,7 +14,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Entirely open source',
+    title: translate({ message: 'Entirely open source' }),
     Svg: require('@site/static/img/undraw_open_source.svg').default,
     description: (
       <>
@@ -23,7 +23,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Entirely community-based',
+    title: translate({ message: 'Entirely community-based' }),
     Svg: require('@site/static/img/undraw_coffee_with_friends.svg').default,
     description: (
       <>

@@ -276,5 +276,14 @@
   },
   "home.items.third": {
     "message": "The website, courses and learning resources are created and maintained by the community. Join us!"
+  },
+  "Entirely free": {
+    "message": "Entirely free"
+  },
+  "Entirely open source": {
+    "message": "Entirely open source"
+  },
+  "Entirely community-based": {
+    "message": "Entirely community-based"
   }
 }

@@ -263,7 +263,7 @@
     "description": "The title of the tag list page"
   },
   "tagline": {
-    "message": "La communauté Math Directory souhaite rendre les connaissances mathématiques accessibles au plus grand nombre de personnes. N'hésiter pas à contribuer!"
+    "message": "La communauté Math Directory souhaite rendre les connaissances mathématiques accessibles au plus grand nombre de personnes. N'hésitez pas à contribuer!"
   },
   "Start learning": {
     "message": "Commencer à apprendre"
@@ -276,5 +276,14 @@
   },
   "home.items.third": {
     "message": "Le site web, les cours et les ressources pédagogiques sont créés et maintenus par la communauté. Rejoignez-nous!"
+  },
+  "Entirely free": {
+    "message": "Entièrement gratuit"
+  },
+  "Entirely open source": {
+    "message": "Entièrement open source"
+  },
+  "Entirely community-based": {
+    "message": "Entièrement communautaire"
   }
 }
